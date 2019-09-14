@@ -385,7 +385,7 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url('../img/background/img2.jpg') no-repeat scroll center center;
+  background: url('../img/background/back1.jpg') no-repeat scroll center center;
   background-size: cover;
 }
 
