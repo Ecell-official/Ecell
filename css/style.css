@@ -383,6 +383,7 @@ button:focus {
   z-index: 1;
   min-height: 900px;
   display: -webkit-box;
+  display:block;" marginheight="0" marginwidth="0"
   display: -ms-flexbox;
   display: flex;
   background: url('../img/background/back1.jpg') no-repeat scroll center center;
