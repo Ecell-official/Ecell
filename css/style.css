@@ -177,8 +177,7 @@ button:focus {
 }
 
 .header_area .navbar {
-  navbar:dark;
-  background: transparent;
+  background: transparent,darkslategray;
   padding: 0px;
   border: 0px;
   border-radius: 0px;
