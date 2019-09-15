@@ -276,7 +276,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background:grey;
+  background: #6247ea;
   color: #fff;
 }
 
