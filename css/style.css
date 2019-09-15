@@ -385,6 +385,7 @@ button:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
   background: url('../img/background/backg.jpg') no-repeat scroll center center;
   background-size: cover;
 }
