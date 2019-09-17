@@ -381,7 +381,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  min-height: 650px;
+  min-height: 750px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
