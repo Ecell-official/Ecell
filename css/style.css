@@ -346,7 +346,7 @@ button:focus {
 .top_menu .float-left a {
   line-height: 40px;
   display: inline-block;
-  color: rgba(168, 37, 146, 0.938);
+  color: #fff(255, 255, 255, 0.938);
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
