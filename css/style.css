@@ -3982,6 +3982,7 @@ h6 {
 /*============== footer-area css ===============*/
 .footer-area {
   background: #04091e;
+  background-size: cover;
 }
 
 .single-footer-widget p {
