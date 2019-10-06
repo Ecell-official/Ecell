@@ -508,13 +508,13 @@ button:focus {
 }
 
 .banner_area .banner_inner .overlay {
-  background: url(../img/banner/e2.jpg) no-repeat scroll center center;
+  background: url(../img/banner/e1.jpg) no-repeat scroll center center;
   background-size: cover;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  min-height: 200px;
+  min-height: 100px;
   bottom: 0;
   z-index: -1;
   opacity: 1;
