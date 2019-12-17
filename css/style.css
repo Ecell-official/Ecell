@@ -193,6 +193,7 @@ button:focus {
   color: #fff;
   padding: 0px;
   display: inline-block;
+  text-transform: uppercase;
 }
 
 .header_area .navbar .nav .nav-item .nav-link:after {
@@ -246,14 +247,14 @@ button:focus {
   opacity: 0;
   -webkit-transition: all 400ms linear;
   -o-transition: all 400ms linear;
-  transition: all 400ms linear;
+  transition: 0.7s all;
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item {
   display: block;
   float: none;
   margin-right: 0px;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 8px solid #ededed;
   margin-left: 0px;
   -webkit-transition: all 0.4s linear;
   -o-transition: all 0.4s linear;
