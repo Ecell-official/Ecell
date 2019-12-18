@@ -436,6 +436,11 @@ button:focus {
   text-align: right;
 }
 
+.sub-menu-1{
+  display: none;
+  
+}
+
 .blog_banner {
   min-height: 780px;
   position: relative;
