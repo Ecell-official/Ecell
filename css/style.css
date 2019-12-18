@@ -195,6 +195,11 @@ button:focus {
   display: inline-block;
   text-transform: uppercase;
 }
+.header_area .navbar .nav .nav-item .nav-link .fa{
+   margin-right:8px;
+   
+
+}
 
 .header_area .navbar .nav .nav-item .nav-link:after {
   display: none;
