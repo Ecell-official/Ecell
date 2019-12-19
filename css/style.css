@@ -587,6 +587,27 @@ button:focus {
 /* End Home Banner Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+/* css for card hover */
+.container{
+        max-width: 1000px;
+        margin: 100px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+.card{
+      position: relative;
+      margin: 20px 0;
+      width: 300px;
+      height:400px;
+      background:#fff;
+      transform-style: preserve-3d;
+      transform: perspective(2000px);
+      transition: 1s;
+      box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+
+}
 /*----------------------------------------------------*/
 /* Causes Area css
 ============================================================================================ */
