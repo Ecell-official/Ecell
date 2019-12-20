@@ -1,11 +1,11 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date('jan 18,2020 00:00:00').getTime();
+timer.countdownDate = new Date('jan 18,2020 12:04:00').getTime();
 
 // set date to 10 days in the future for testing purposes
 //Mar 16, 2019 09:30:00
-timer.countdownDate.setDate( timer.countdownDate.getDate());
+//timer.countdownDate.setDate( timer.countdownDate.getDate());
 
 /*
 * Get thing started
@@ -23,10 +23,10 @@ timer.init = function() {
 */
 timer.getReferences = function() {
   timer.timer = document.getElementById("timer");
-  timer.days = timer.timer.querySelectorAll(".days .timer__number")[28];
-  timer.hours = timer.timer.querySelectorAll(".hours .timer__number")[12];
-  timer.minutes = timer.timer.querySelectorAll(".minutes .timer__number")[15];
-  timer.seconds = timer.timer.querySelectorAll(".seconds .timer__number")[20];
+  timer.days = timer.timer.querySelectorAll(".days .timer__number")[0];
+  timer.hours = timer.timer.querySelectorAll(".hours .timer__number")[0];
+  timer.minutes = timer.timer.querySelectorAll(".minutes .timer__number")[0];
+  timer.seconds = timer.timer.querySelectorAll(".seconds .timer__number")[0];
 }
 
 /*
