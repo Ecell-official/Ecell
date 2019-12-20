@@ -5,7 +5,7 @@ timer.countdownDate = new Date("18/01/2020").getTime();
 
 // set date to 10 days in the future for testing purposes
 //Mar 16, 2019 09:30:00
-//timer.countdownDate.setDate( timer.countdownDate.getDate());
+timer.countdownDate.setDate( timer.countdownDate.getDate());
 
 /*
 * Get thing started
