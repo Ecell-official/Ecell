@@ -459,7 +459,7 @@ button:focus {
   z-index: 1;
 }
 
-.blog_banner .banner_inner .overlay {
+.blog_bannerq .banner_inner .overlay {
   background: url('/img/banner/banner.jpg') no-repeat scroll center center;
   opacity: .5;
   height: 125%;
