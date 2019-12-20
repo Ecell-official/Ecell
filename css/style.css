@@ -3650,7 +3650,7 @@ h6 {
 .event_time_inner {
   max-width: 944px;
   margin: auto;
-  background:url("/img/background/bulbxx.jpg") no-repeat center center/cover;
+  background: linear-gradient(-45deg,#ee7752,#6247ea,#a367e7,#4331b0);
   margin-top: -90px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
