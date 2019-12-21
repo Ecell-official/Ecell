@@ -216,7 +216,7 @@ button:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   margin: 0px;
-  background:#2faae6;
+  background:#fff;
 }
 
 @media (min-width: 992px) {
