@@ -1,7 +1,7 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date(feb 12, 2020 10:00:00).getTime(); //'jan 18,2020 12:04:00
+timer.countdownDate = new Date("feb 12, 2020 10:00:00").getTime(); //'jan 18,2020 12:04:00
 
 // set date to 10 days in the future for testing purposes
 //Mar 16, 2019 09:30:00
@@ -23,10 +23,10 @@ timer.init = function() {
 */
 timer.getReferences = function() {
   timer.timer = document.getElementById("timer");
-  timer.days = timer.timer.querySelectorAll(".days .timer__number")[6];
+  timer.days = timer.timer.querySelectorAll(".days .timer__number")[0];
   timer.hours = timer.timer.querySelectorAll(".hours .timer__number")[0];
-  timer.minutes = timer.timer.querySelectorAll(".minutes .timer__number")[12];
-  timer.seconds = timer.timer.querySelectorAll(".seconds .timer__number")[1];
+  timer.minutes = timer.timer.querySelectorAll(".minutes .timer__number")[0];
+  timer.seconds = timer.timer.querySelectorAll(".seconds .timer__number")[0];
 }
 
 /*
