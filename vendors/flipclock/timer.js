@@ -23,10 +23,10 @@ timer.init = function() {
 */
 timer.getReferences = function() {
   timer.timer = document.getElementById("timer");
-  timer.days = timer.timer.querySelectorAll(".days .timer__number")[0];
+  timer.days = timer.timer.querySelectorAll(".days .timer__number")[6];
   timer.hours = timer.timer.querySelectorAll(".hours .timer__number")[0];
-  timer.minutes = timer.timer.querySelectorAll(".minutes .timer__number")[0];
-  timer.seconds = timer.timer.querySelectorAll(".seconds .timer__number")[0];
+  timer.minutes = timer.timer.querySelectorAll(".minutes .timer__number")[12];
+  timer.seconds = timer.timer.querySelectorAll(".seconds .timer__number")[1];
 }
 
 /*
