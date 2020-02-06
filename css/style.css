@@ -4497,13 +4497,39 @@ clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
   text-transform: uppercase;
   color: #eee;
   font-size: 1.4rem;
+  transition: all .5s;
 }
 .cardd .btnn:hover{
+  transform: translateY(-2px);
+  box-shadow: .5rem .5rem 2rem rgba(0, 0, 0,.2);
+}
+.cardd .btnn:active{
   transform: translateY(0);
   box-shadow: none;
-  
-
-
+}
+.social-mediaa{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.social-mediaa i{
+  font-size: 3rem;
+}
+.fa-facebook-square{
+  color: #3b5999;
+}
+.fa-twitter-square{
+  color: #55acee;
+}
+.fa-instagram-square{
+  color: #e6683c;
+}
+.fa-google-plus-square{
+  color: #dd4b39;
 }
 
 
