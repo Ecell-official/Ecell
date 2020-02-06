@@ -4432,254 +4432,97 @@ body {
   font-weight: bold;
     text-transform: uppercase;
 }
-
-section{
-  padding: 10rem 0;
-  background-color: #fff;
-}
-
-.card-wrapperr{
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-}
-.cardd{
-  width: 32rem;
-  background-color: #ebeef8;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem;
-  box-shadow: .5rem .5rem 3rem rgba(0,0,0,0.2);
-}
-.cardd .card-imgg{
-  width:100%;
-  height: 20rem;
-  object-fit: cover;
--webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
-}
-
-.profile-imagee{
-  width: 15rem;
-  height: 15rem;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-top: -11rem;
-  z-index: 999;
-  border: 1rem solid #ebeef8;
-}
-
-.cardd h1{
-  font-size: 2.5rem;
-  color: #333;
-  margin:1.5rem 0;
-}
-.job-title{
-  color: #777;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-.aboutt{
-  font-size: 1.5rem;
-  margin: 1.5rem 0;
-  font-style: italic;
-  text-align: center;
-  color: #333;
-}
-.cardd .btnn{
-  padding: 1rem 2.5rem;
-  background-color: #445ae3;
-  border-radius: 2rem;
-  margin: 1rem 0;
-  text-transform: uppercase;
-  color: #eee;
-  font-size: 1.4rem;
-  transition: all .5s;
-}
-.cardd .btnn:hover{
-  transform: translateY(-2px);
-  box-shadow: .5rem .5rem 2rem rgba(0, 0, 0,.2);
-}
-.cardd .btnn:active{
-  transform: translateY(0);
-  box-shadow: none;
-}
-.social-mediaa{
-  width: 100%;
-  list-style: none;
-  display:flex;
-  justify-content: space-evenly;
-  padding:2rem 0;
-  margin-top: 1.5rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-.social-mediaa i{
-  font-size: 3rem;
-  transition: color .5s;
-}
-.fa-facebook-square{
-  color: #3b5999;
-}
-.fa-twitter-square{
-  color: #55acee;
-}
-.fa-instagram{
-  color: #e6683c;
-}
-.fa-google-plus-square{
-  color: #dd4b39;
-}
-
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-instagram:hover,
-.fa-google-plus-square:hover{
-  color: #45e19f;
-}
-
-@media screen and (min-width: 700px){
-  .card-wrapperr{
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .cardd{
-    margin: 2rem;
-    transition: opacity .5s;
-  }
-
-  @keyframes fadeIn{
-    from{
-      opacity: 0;
-    }
-    to{
-      opacity: 1;
-    }
-  }
-
-    .cardd:nth-child(1){
-      animation:fadeIn .5s .5s backwards;
-    }
-
-    
-    .cardd:nth-child(2){
-      animation:fadeIn .5s 1s backwards;
-    }
-    .cardd:nth-child(3){
-      animation:fadeIn .5s 1.5s backwards;
-    }
-    .cardd:nth-child(4){
-      animation:fadeIn .5s 2s backwards;
-    }
-.cardd:hover{
-  transform: scale(1.0);
-}
-}
-
-
-.team-member, .team-member .team-img {
+.our-team{
+    text-align: center;
+    margin-bottom: 100px;
+    z-index: 1;
     position: relative;
 }
-.team-member {
+.our-team .pic{
+    border-radius: 50%;
     overflow: hidden;
-}
-.team-member, .team-member .team-img {
     position: relative;
 }
-
-.team-member .team-img .img-responsive{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
-
-.team-hover {
+.our-team .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .pic:after{ opacity: 1; }
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
     margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.90);
+    list-style: none;
     opacity: 0;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-.team-member:hover .team-hover .desk {
-    top: 35%;
-}
-.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
-    opacity: 1;
-}
-.team-hover .desk {
     position: absolute;
-    top: 0%;
-    width: 100%;
-    opacity: 0;
-    -webkit-transform: translateY(-55%);
-    -ms-transform: translateY(-55%);
-    transform: translateY(-55%);
-    -webkit-transition: all 0.3s 0.2s;
-    transition: all 0.3s 0.2s;
-    padding: 0 20px;
+    top: 45%;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
 }
-.desk, .desk h4, .team-hover .s-link a {
-    text-align: center;
-    color: #222;
-}
-.team-member:hover .team-hover .s-link {
-    bottom: 10%;
-}
-.team-member:hover .team-hover, .team-member:hover .team-hover .desk, .team-member:hover .team-hover .s-link {
-    opacity: 1;
-}
-.team-hover .s-link {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    opacity: 0;
-    text-align: center;
-    -webkit-transform: translateY(45%);
-    -ms-transform: translateY(45%);
-    transform: translateY(45%);
-    -webkit-transition: all 0.3s 0.2s;
-    transition: all 0.3s 0.2s;
-    font-size: 35px;
-}
-.desk, .desk h4, .team-hover .s-link a {
-    text-align: center;
-    color: #222;
-}
-.team-member .s-link a {
-    margin: 0 10px;
-    color: #333;
-    font-size: 16px;
-}
-.team-title {
-  text-align: center;
-    position: static;
-    padding: 20px 0;
-    display: inline-block;
-    letter-spacing: 2px;
-    width: 100%;
-}
-.team-title h5 {
-    margin-bottom: 0px;
+.our-team:hover .social{ opacity: 1; }
+.our-team .social li{ display: inline-block; }
+.our-team .social li a{
     display: block;
-    text-transform: uppercase;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.5s ease 0s;
 }
-.team-title span {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #a5a5a5;
-    letter-spacing: 1px;
+.our-team .social li a:hover{
+    background: #fff;
+    color: #000;
 }
+.our-team .team-content{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px dotted #ddd;
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .team-content{ border: 2px dotted #00adae; }
+.our-team .team-info{
+    width: 100%;
+    color: #464646;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+}
+.our-team .title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #464646;
+    margin: 0 0 5px 0;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .title{ color: #00adae; }
+.our-team .post{
+    display: block;
+    font-size: 14px;
+    color: #464646;
+}
+
 .deskk h4{
     text-align: center;
     color: #222;
