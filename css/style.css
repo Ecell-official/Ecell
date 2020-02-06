@@ -4574,7 +4574,9 @@ clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
     .cardd:nth-child(4){
       animation:fadeIn .5s 2s backwards;
     }
-
+.cardd:hover{
+  transform: scale(1.1);
+}
 }
 
 
