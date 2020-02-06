@@ -4510,7 +4510,7 @@ clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
 .social-mediaa{
   width: 100%;
   list-style: none;
-  display: flex;
+  display: inline-flexbox;
   justify-content: space-evenly;
   padding: 2rem 0;
   margin-top: 1.5rem;
@@ -4542,13 +4542,14 @@ clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
 
 @media screen and (min-width: 700px){
   .card-wrapperr{
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction:row;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
   }
   .cardd{
     margin: 2rem;
+    transition: opacity .5s;
   }
 
   @keyframes fadeIn{
@@ -4575,7 +4576,7 @@ clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
       animation:fadeIn .5s 2s backwards;
     }
 .cardd:hover{
-  transform: scale(1.1);
+  transform: scale(1.0);
 }
 }
 
