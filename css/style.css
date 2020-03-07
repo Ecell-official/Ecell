@@ -3843,7 +3843,7 @@ h6 {
 /* Team Area css
 ============================================================================================ */
 .our-team{
-  border: 2px solid #ff3232;
+  border: 2px solid #3246ff;
   border-radius: 10px;
   text-align: center;
   margin: 10px;
@@ -3855,7 +3855,7 @@ h6 {
   content: "";
   width: 100%;
   height: 104%;
-  background: #ff3232;
+  background: #3246ff;
   position: absolute;
   top: 50%;
   left: 0;
@@ -3879,7 +3879,7 @@ h6 {
 .our-team .team-content{
   width: 93%;
   padding: 25px 0 10px;
-  background: #ff4444;
+  background: #3246ff;
   position: absolute;
   bottom: 50px;
   left: 50%;
@@ -3925,7 +3925,7 @@ h6 {
   border-radius: 50%;
   background: #fff;
   font-size: 20px;
-  color: #ff3232;
+  color: #3246ff;
   transition: all 0.3s ease 0s;
 }
 .our-team .social li a:hover{
