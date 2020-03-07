@@ -3842,97 +3842,100 @@ h6 {
 /*----------------------------------------------------*/
 /* Team Area css
 ============================================================================================ */
-.team_area {
-  background: #f9f9ff;
-}
-
-.team_inner {
-  margin-bottom: -50px;
-}
-
-.team_item {
-  position: relative;
+.our-team{
+  border: 2px solid #ff3232;
+  border-radius: 10px;
   text-align: center;
-  margin-bottom: 50px;
-}
-
-.team_item .team_img {
+  margin: 10px;
+  z-index: 1;
   position: relative;
-  overflow: hidden;
 }
-
-.team_item .team_img .hover {
-  position: absolute;
-  left: 0px;
+.our-team:before,
+.our-team:after{
+  content: "";
   width: 100%;
-  bottom: -70px;
-  text-align: center;
-  -webkit-transition: all 300ms linear 0s;
-  -o-transition: all 300ms linear 0s;
-  transition: all 300ms linear 0s;
-  background: #fff;
+  height: 104%;
+  background: #ff3232;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  transform: translateY(-50%) scaleX(0.3);
+  transition: all 0.3s ease 0s;
 }
-
-.team_item .team_img .hover a {
-  font-size: 14px;
-  color: #dddddd;
-  margin-right: 20px;
-  line-height: 50px;
+.our-team:after{
+  width: 106%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(0.25);
 }
-
-.team_item .team_img .hover a:last-child {
-  margin-right: 0px;
+.our-team:hover:before{ transform: translateY(-50%) scaleX(0.7); }
+.our-team:hover:after{ transform: translate(-50%, -50%) scaleY(0.7); }
+.our-team img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
 }
-
-.team_item .team_img .hover a:hover i:before {
-  background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(70%, #9b5cf6));
-  background: -webkit-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);
-  background: -o-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);
-  background: linear-gradient(to right, #2c28b1 0%, #9b5cf6 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.our-team .team-content{
+  width: 93%;
+  padding: 25px 0 10px;
+  background: #ff4444;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  opacity: 0;
+  -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+  transform: translateX(-50%);
+  transition: all 0.3s cubic-bezier(0.5, 0.2,0.1,0.9);
 }
-
-.team_item .team_name {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.team_item .team_name h4 {
-  margin-bottom: 5px;
-  color: #222222;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  -webkit-transition: all 300ms linear 0s;
-  -o-transition: all 300ms linear 0s;
-  transition: all 300ms linear 0s;
-}
-
-.team_item .team_name p {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  color: #777777;
-  margin-bottom: 0px;
-}
-
-.team_item:hover .team_img:before {
+.our-team:hover .team-content{
+  bottom: 10px;
   opacity: 1;
 }
-
-.team_item:hover .team_img .hover {
-  bottom: 0px;
+.our-team .title{
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0;
 }
-
-.team_item:hover .team_name h4 {
-  background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(70%, #9b5cf6));
-  background: -webkit-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);
-  background: -o-linear-gradient(left, #2c28b1 0%, #9b5cf6 70%);
-  background: linear-gradient(to right, #2c28b1 0%, #9b5cf6 70%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.our-team .post{
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
-
+.our-team .social{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.our-team .social li{
+  display: inline-block;
+  margin: 0 5px;
+}
+.our-team .social li a{
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 20px;
+  color: #ff3232;
+  transition: all 0.3s ease 0s;
+}
+.our-team .social li a:hover{
+  background: linear-gradient(to bottom,#ff3232, darkred);
+  box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
+  color: #fff;
+}
+@media only screen and (max-width: 990px){
+  .our-team{ margin-bottom: 30px; }
+}
 /* End Team Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
@@ -4432,100 +4435,7 @@ body {
   font-weight: bold;
     text-transform: uppercase;
 }
-.our-team{
-    border: 2px solid #ff3232;
-    border-radius: 10px;
-    text-align: center;
-    margin: 10px;
-    z-index: 1;
-    position: relative;
-}
-.our-team:before,
-.our-team:after{
-    content: "";
-    width: 100%;
-    height: 104%;
-    background: #ff3232;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: -1;
-    transform: translateY(-50%) scaleX(0.3);
-    transition: all 0.3s ease 0s;
-}
-.our-team:after{
-    width: 106%;
-    left: 50%;
-    transform: translate(-50%, -50%) scaleY(0.25);
-}
-.our-team:hover:before{ transform: translateY(-50%) scaleX(0.7); }
-.our-team:hover:after{ transform: translate(-50%, -50%) scaleY(0.7); }
-.our-team img{
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    transition: all 0.3s ease 0s;
-}
-.our-team .team-content{
-    width: 93%;
-    padding: 25px 0 10px;
-    background: #ff4444;
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    opacity: 0;
-    -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
-    transform: translateX(-50%);
-    transition: all 0.3s cubic-bezier(0.5, 0.2,0.1,0.9);
-}
-.our-team:hover .team-content{
-    bottom: 10px;
-    opacity: 1;
-}
-.our-team .title{
-    font-size: 25px;
-    font-weight: 600;
-    color: #fff;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin: 0;
-}
-.our-team .post{
-    display: block;
-    font-size: 16px;
-    color: #fff;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-.our-team .social{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.our-team .social li{
-    display: inline-block;
-    margin: 0 5px;
-}
-.our-team .social li a{
-    display: block;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    border-radius: 50%;
-    background: #fff;
-    font-size: 20px;
-    color: #ff3232;
-    transition: all 0.3s ease 0s;
-}
-.our-team .social li a:hover{
-    background: linear-gradient(to bottom,#ff3232, darkred);
-    box-shadow: 0 0 0 5px rgba(255,255,255,0.3);
-    color: #fff;
-}
-@media only screen and (max-width: 990px){
-    .our-team{ margin-bottom: 30px; }
-}
+
 .deskk h4{
     text-align: center;
     color: #222;
