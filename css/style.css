@@ -460,7 +460,7 @@ button:focus {
 }
 
 .blog_bannerq .banner_inner .overlay {
-  background: url('/img/banner/banner.jpg') no-repeat scroll center center;
+  background: url('/img/banner/bg_3.jpg') no-repeat scroll center center;
   opacity: .5;
   height: 125%;
   position: absolute;
