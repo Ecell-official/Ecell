@@ -1,7 +1,7 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date('March 13, 2020 10:00:00').getTime(); //'jan 18,2020 12:04:00
+timer.countdownDate = new Date('Mar 13, 2020 10:00:00').getTime(); //'jan 18,2020 12:04:00
 
 // set date to 10 days in the future for testing purposes
 //Mar 16, 2019 09:30:00
