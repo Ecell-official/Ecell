@@ -387,7 +387,7 @@ button:focus {
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
-#home_banner{
+#hero {
   width: 100%;
   height: 60vh;
   background: url("../img/background/bg3.jpg") center center;
@@ -398,7 +398,7 @@ button:focus {
   margin-bottom: -200px;
 }
 
-#home_banner:before {
+#hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.4);
   position: absolute;
@@ -408,11 +408,11 @@ button:focus {
   right: 0;
 }
 
-#home_banner .container {
+#hero .container {
   z-index: 2;
 }
 
-#home_banner h1 {
+#hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -420,13 +420,13 @@ button:focus {
   color: #fff;
 }
 
-#home_banner h2 {
+#hero h2 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#home_banner .get-started-icon {
+#hero .get-started-icon {
   font-size: 24px;
   background: #ff5821;
   padding: 14px;
@@ -437,7 +437,7 @@ button:focus {
   box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#home_banner .btn-get-started {
+#hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -453,34 +453,34 @@ button:focus {
   z-index: 4;
 }
 
-#home_banner .btn-get-started:hover {
+#hero .btn-get-started:hover {
   background: #ff5821;
 }
 
 @media (min-width: 1024px) {
-  #home_banner {
+  #hero {
     background-attachment: fixed;
   }
 }
 
 @media (max-width: 1024px) {
-  #home_banner {
+  #hero {
     margin-bottom: -150px;
   }
 }
 
 @media (max-height: 768px) {
-  #home_banner {
+  #hero {
     margin-bottom: -150px;
   }
 }
 
 @media (max-width: 768px) {
-  #home_banner h1 {
+  #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #home_banner h2 {
+  #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
