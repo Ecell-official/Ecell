@@ -110,6 +110,7 @@ button:focus {
 
 @media (min-width: 1200px) {
   .container {
+    color:  #7f6d68;
     max-width: 1170px;
   }
 }
