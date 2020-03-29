@@ -429,7 +429,7 @@ button:focus {
 #hero .get-started-icon {
   font-size: 24px;
   background: #ff5821;
-  padding: 14px;
+  padding: 10px;
   color: #fff;
   border-radius: 50px;
   position: relative;
@@ -445,7 +445,7 @@ button:focus {
   display: inline-block;
   transition: 0.5s;
   margin-left: -10px;
-  padding: 8px 26px 8px 26px;
+  padding: 8px 20px 8px 20px;
   color: #fff;
   background: #584b48;
   border-radius: 0 50px 50px 0;
@@ -525,7 +525,7 @@ section {
 }
 
 .why-us .content {
-  padding: 50px;
+  padding: 30px;
   background: #ff5821;
   border-radius: 4px;
   color: #fff;
