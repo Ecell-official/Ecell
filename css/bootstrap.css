@@ -6093,6 +6093,8 @@ button.close {
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
     perspective: 1000px
+    border: 1px solid #ddd;
+	border-radius: 50%;
 }
 
 .carousel-item-next,
