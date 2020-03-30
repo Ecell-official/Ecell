@@ -4396,7 +4396,7 @@ h6 {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffa587;
+  color: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));
   font-size: 18px;
   line-height: 1;
 }
@@ -4460,7 +4460,7 @@ h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ff5821;
+  background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -4468,7 +4468,7 @@ h6 {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #ed3b00;
+  background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));;
 }
 
 #footer .credits {
@@ -4480,7 +4480,7 @@ h6 {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ff5821;
+  background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -4493,7 +4493,7 @@ h6 {
 }
 
 #footer .social-links a:hover {
-  background: #ff7e54;
+  background:lightskyblue;
   color: #fff;
   text-decoration: none;
 }
