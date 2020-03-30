@@ -740,7 +740,7 @@ section {
 }
 
 .blog_bannerq .banner_inner .overlay {
-  background: url('/img/banner/bg_3.jpg') no-repeat scroll center center;
+  background: url('/img/banner/hero-bg.jpg') no-repeat scroll center center;
   opacity: .5;
   height: 125%;
   position: absolute;
