@@ -152,7 +152,7 @@
 	}
 	/* Footer Area css
 	============================================================================================ */
-	.footer-area .col-sm-6{
+	/*.footer-area .col-sm-6{
 		margin-bottom: 30px;
 	}
 	/* End End Footer Area css
@@ -217,7 +217,7 @@
 	}
 	/* Footer Area css
 	============================================================================================ */
-	.footer-bottom{
+	/*.footer-bottom{
 		text-align: center;
 	}
 	.footer-bottom .footer-social {
@@ -227,7 +227,7 @@
 
 	/* End End Footer Area css
 	============================================================================================ */
-}
+/*}
 @media (max-width:600px){
 	
 }
@@ -297,7 +297,7 @@
 	============================================================================================ */
 	/* Footer Area css
 	============================================================================================ */
-	.footer-area {
+	/*.footer-area {
 		padding: 70px 0px;
 	}
 	/* End End Footer Area css
@@ -312,7 +312,7 @@
 	.pad_btm {
 		padding-bottom: 70px;
 	}
-	.single-footer-widget .sub-btn {
+/*.single-footer-widget .sub-btn {
 		right: 0px;
 	}
 	
