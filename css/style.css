@@ -796,7 +796,7 @@ section {
 }
 
 .banner_area .banner_inner .overlay {
-  background: url('../img/banner/bg_3.jpg') no-repeat scroll center center;
+  background: url('../img/banner/hero-bg.jpg') no-repeat scroll center center;
   background-size: cover;
   position: absolute;
   width: 100%;
