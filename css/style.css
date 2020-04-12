@@ -748,7 +748,6 @@ section {
   top: 0px;
   width: 100%;
   z-index: -1;
-  
 }
 
 .blog_banner .banner_inner .blog_b_text {
@@ -4124,7 +4123,7 @@ h6 {
 /* Team Area css
 ============================================================================================ */
 .our-team{
-  border: 2px solid #ff3232;
+  border: 2px solid -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));;;
   border-radius: 10px;
   text-align: center;
   margin: 10px;
@@ -4136,7 +4135,7 @@ h6 {
   content: "";
   width: 100%;
   height: 104%;
-  background: #ff3232;
+  background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));;
   position: absolute;
   top: 50%;
   left: 0;
@@ -4160,7 +4159,7 @@ h6 {
 .our-team .team-content{
   width: 93%;
   padding: 25px 0 10px;
-  background: #ff3232;
+  background: -webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));;
   position: absolute;
   bottom: 50px;
   left: 50%;
