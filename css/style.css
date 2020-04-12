@@ -4223,7 +4223,7 @@ h6 {
 /* Team Area css
 ============================================================================================ */
 .our-team{
-  border: 2px ;
+  border: 2px solid blueviolet ;
   border-radius: 10px;
   text-align: center;
   margin: 10px;
