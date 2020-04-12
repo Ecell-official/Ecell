@@ -657,7 +657,7 @@ section {
 
 .why-us .content {
   padding: 30px;
-  background:-webkit-gradient(linear, left top, right top, from(#2c28b1), color-stop(51%, #9b5cf6), to(#2c28b1));;;
+  background: #ff5821;
   border-radius: 4px;
   color: #fff;
 }
