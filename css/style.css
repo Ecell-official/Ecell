@@ -740,14 +740,13 @@ section {
 }
 
 .blog_bannerq .banner_inner .overlay {
-  background: url('/img/banner/hero-bg.jpg') no-repeat scroll center center;
-  opacity: .5;
-  height: 125%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: -1;
+  height: 60vh;
+  background: url("../img/background/bulbx.jpg") center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-bottom: -200px;
 }
 
 .blog_banner .banner_inner .blog_b_text {
