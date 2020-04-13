@@ -656,11 +656,11 @@ button:focus {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color:#fff;
 }
 
 #herocontact h2 {
-  color:black;
+  color:#fff;
   margin-bottom: 50px;
   font-size: 24px;
 }
