@@ -416,6 +416,54 @@ button:focus {
 }
 
 /*----------------------------------------------------*/
+/*---------------------------contact banner-------------------------------------*/
+#herocontact {
+  width: 100%;
+  height: 60vh;
+  background: url("../img/banner/contactbanner.jpg") center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin-bottom: -200px;
+}
+
+#herocontact:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0; 
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#herocontact .container {
+  z-index: 2;
+}
+
+
+
+
+}
+@media (min-width: 1024px) {
+  #herocontact {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1024px) {
+  #herocontact {
+    margin-bottom: -150px;
+  }
+}
+
+@media (max-height: 768px) {
+  #herocontact {
+    margin-bottom: -150px;
+  }
+}
+}
 /* Home Banner Area css
 ============================================================================================ */
 #hero {
