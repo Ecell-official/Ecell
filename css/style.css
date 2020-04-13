@@ -483,6 +483,14 @@ button:focus {
   position: relative;
   z-index: 4;
 }
+#hero .page_l{
+  font-size: 14px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  margin-right: 32px;
+  position: relative;
+  text-transform: uppercase;
+}
 
 #hero .btn-get-started:hover {
   background: #ff5821;
